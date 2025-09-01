@@ -1,0 +1,28 @@
+{
+  "name": "brain-tumor-detection",
+  "version": "1.0.0",
+  "description": "Brain Tumor Detection using Deep Learning - Full Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test",
+    "install-frontend": "cd frontend && npm install",
+    "start-backend": "cd backend && python app_demo.py",
+    "start-full": "concurrently \"npm run start-backend\" \"npm run start\"",
+    "setup": "npm run install-frontend"
+  },
+  "keywords": [
+    "brain-tumor",
+    "detection",
+    "deep-learning",
+    "react",
+    "flask",
+    "medical-ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
